@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "ABA",
+      "BCB",
+      "ABA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:white_wool"
+      }, 
+      "B": {
+        "item": "minecraft:string"
+      },
+      "C": {
+        "item": "minecraft:cobblestone"
+      }               
+    },
+    "result": {
+      "item": "soundmuffler:soundmuffler",
+      "count": 1
+    }
+  }
