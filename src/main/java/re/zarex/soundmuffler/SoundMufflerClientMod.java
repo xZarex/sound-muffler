@@ -32,7 +32,7 @@ public class SoundMufflerClientMod implements ClientModInitializer {
 				double d = mufflerPos.getX() - x;
 				double e = mufflerPos.getY() - y;
 				double f = mufflerPos.getZ() - z;
-				if (d * d + e * e + f * f < 20)
+				if (d * d + e * e + f * f < 40)
 					return true;
 			}
 		}
